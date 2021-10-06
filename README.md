@@ -17,7 +17,7 @@ You are welcome to post questions in the github issues but don't expect an answe
 
 **How to use it**:
 
-To display an mjpeg stream on a web page, just put the address in an iomage tag:
+To display an mjpeg stream on a web page, just put the address in an image tag:
 
     <img src="http://18.116.60.15:8080/maryjane/"/>
 
