@@ -2,11 +2,10 @@
 
 MaryJane is a simple MJPEG server written in Python.
 
-### Live demo:
-
 <a href="http://18.116.60.15:8080/maryjane/">
     Live demo of MaryJane
 </a>
+
 
 **Project status**:
 
