@@ -1,0 +1,18 @@
+[Unit]
+Description=maryjane_mjpeg_server
+After=multi-user.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/home/ubuntu/maryjane/venv3.9/bin/python3.9 /home/ubuntu/maryjane/maryjane.py
+Restart=always
+RestartSec=100ms
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/maryjane/
+
+
+
+

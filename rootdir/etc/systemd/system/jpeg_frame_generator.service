@@ -1,0 +1,21 @@
+[Unit]
+Description=Creates frames for mjpeg server
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/var/www/previews_www
+Type=oneshot
+User=www-data
+# -mmin 1440 == 1 day
+ExecStart=/usr/bin/ffmpeg -y -re  -stream_loop -1 -i /home/ubuntu/maryjane/monster-family-2-teaser_h480p.mov  -f image2 -update 1 /dev/shm/img.jpeg
+Restart=always
+RestartSec=100ms
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/maryjane/
+
+[Install]
+WantedBy=multi-user.target
+
+
+
