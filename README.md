@@ -4,8 +4,7 @@ MaryJane is a simple MJPEG server written in Python.
 
 ### Live demo:
 
-https://htmlpreview.github.io/?https://github.com/bootrino/maryjane/index.html
-<a href="https://htmlpreview.github.io/?https://github.com/bootrino/maryjane/index.html">
+<a href="http://18.116.60.15:8080/maryjane/">
     Live demo of MaryJane
 </a>
 
@@ -16,6 +15,13 @@ Created 6 Oct 2021 by Andrew Stuart andrew.stuart@supercoders.com.au
 License: MIT
 
 You are welcome to post questions in the github issues but don't expect an answer - I may or may not be interested in reading/fixing issues.
+
+**How to use it**:
+
+To display an mjpeg stream on a web page, just put the address in an iomage tag:
+
+    <img src="http://18.116.60.15:8080/maryjane/"/>
+
 
 **How it works**:
 
