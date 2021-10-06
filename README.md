@@ -1,12 +1,13 @@
-# Mary Jane MJPEG server
+# MaryJane MJPEG server
 
-Mary Jane is a simple MJPEG server written in Python.
+MaryJane is a simple MJPEG server written in Python.
 
 ### Live demo:
 
-<p style="text-align:center;">
-    <img src="http://18.116.60.15:8080/maryjane/"/>
-</p>
+https://htmlpreview.github.io/?https://github.com/bootrino/maryjane/index.html
+<a href="https://htmlpreview.github.io/?https://github.com/bootrino/maryjane/index.html">
+    Live demo of MaryJane
+</a>
 
 **Project status**:
 
