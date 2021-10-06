@@ -1,4 +1,4 @@
-# MaryJane MJPEG server
+# MaryJane MJPEG server in < 30 lines Python
 
 MaryJane is a simple MJPEG server written in Python.
 
@@ -6,7 +6,7 @@ MaryJane is a simple MJPEG server written in Python.
     Live demo of MaryJane
 </a>
 
-
+-------------------------------
 **Project status**:
 
 Created 6 Oct 2021 by Andrew Stuart andrew.stuart@supercoders.com.au
