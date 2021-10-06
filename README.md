@@ -2,7 +2,11 @@
 
 Mary Jane is a simple MJPEG server written in Python.
 
-### Live demo at: https://www.reactoxide.com/
+### Live demo:
+
+<p style="text-align:center;">
+    <img src="http://18.116.60.15:8080/maryjane/"/>
+</p>
 
 **Project status**:
 
